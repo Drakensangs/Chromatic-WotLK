@@ -36,7 +36,7 @@ Chromatic detects and color codes tooltips from the following addons:
 
 # **⚠️ Known Issues**
 
-Element color coding is not context-aware — any occurrence of Fire, Frost, Arcane, Holy, Nature, or Shadow in a tooltip will be colorized, including spell names, item names, and even mob names. An exception list file exists but is not exhaustive. I've been very strict with phrases that should be exluded from being colorized, but if you've think it's too much, you can easily edit `Exceptions.lua`.
+Element color coding is not context-aware — any occurrence of Fire, Frost, Arcane, Holy, Nature, or Shadow in a tooltip will be colorized, including spell names, item names, and even mob names. An exception list file exists but is not exhaustive. I've been very strict with phrases that should be exluded from being colorized, but if you think it's too much, you can easily edit `Exceptions.lua`.
 
 # 👨‍💻 **Author**
 Drakensangs
