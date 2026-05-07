@@ -2,7 +2,7 @@
 ## Title: |cFFFF66FFC|r|cFFFF0000h|r|cFFFFFF00r|r|cFF00FF00o|r|cFF00FFFFm|r|cFF9900FFa|r|cFFFF66FFt|r|cFFFF0000i|r|cFFFFFF00c|r
 ## Notes: Color codes class names in item tooltips, item tooltip borders based on rarity, and damage/resistance types in item & spell tooltips.
 ## Author: Drakensangs
-## Version: 3.00
+## Version: 3.1
 ## SavedVariables: ChromaticConfig
 ## OptionalDeps: AtlasLoot, MogIt
 
