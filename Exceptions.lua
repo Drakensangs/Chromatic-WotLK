@@ -36,6 +36,7 @@ ChromaticData.EXCEPTIONS = {
 "Arcane Power", 
 "Arcane Khorium",
 "arcane magic",
+"_Arcane_", --Skada compatibility
     -- Fire
 "Fire Talents", 
 "Fire Ward", 
@@ -98,6 +99,7 @@ ChromaticData.EXCEPTIONS = {
 "with fire",
 "greater fire",
 "Fire totem",
+"_Fire_", --Skada compatibility
     -- Frost
 "Frost Talents", 
 "Frost Nova", 
@@ -125,6 +127,7 @@ ChromaticData.EXCEPTIONS = {
 "Frost and Unholy", 
 "Frost or Unholy",
 "1 Frost",
+"_Frost_", --skada compatibility
     -- Shadow
 "Shadow Talents", 
 "Shadow Flame", 
@@ -165,6 +168,7 @@ ChromaticData.EXCEPTIONS = {
 "Shadow Bite",
 "shadow magic",
 "Shadow Vault",
+"_Shadow_", --Skada compatibility
     -- Holy
 "Holy Talents", 
 "holy spirit", 
@@ -185,7 +189,7 @@ ChromaticData.EXCEPTIONS = {
 "Holy Wrath", 
 "Holy Nova", 
 "Holy Vengeance", 
-"_Holy_", --DrDamage compatiblity
+"_Holy_", --Skada/DrDamage compatiblity
 "Holy and Discipline",
 "Holy flames",
     -- Nature
@@ -200,4 +204,5 @@ ChromaticData.EXCEPTIONS = {
 "Nature Resistance Totem",
 "Nature's Majesty", 
 "Nature's Grasp",
+"_Nature_", --Skada compatibility
 }
