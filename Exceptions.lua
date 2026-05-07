@@ -164,6 +164,7 @@ ChromaticData.EXCEPTIONS = {
 "Shadow's Embrace", 
 "Shadow Bite",
 "shadow magic",
+"Shadow Vault",
     -- Holy
 "Holy Talents", 
 "holy spirit", 
