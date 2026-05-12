@@ -43,10 +43,10 @@ Drakensangs
 
 ## 📸 **Screenshots**
 
-<img width="347" height="96" alt="chromaticssspell" src="https://github.com/user-attachments/assets/ae0b0479-e8fc-4a10-942c-727c5b7ff4d4" />
-<img width="377" height="183" alt="chromaticssspell1" src="https://github.com/user-attachments/assets/0bf4627f-7214-4c5d-acd2-dd6b9be487bf" />
-<img width="428" height="162" alt="chromaticsstoken" src="https://github.com/user-attachments/assets/bb4fa53d-32a7-46da-aa61-f645b2b0636e" />
-<img width="450" height="663" alt="chromaticsstier" src="https://github.com/user-attachments/assets/2f3eceae-3461-4a7f-a967-3a066b88c5d5" />
+<img width="347" height="96" alt="chromaticssspell" src="https://github.com/user-attachments/assets/ae0b0479-e8fc-4a10-942c-727c5b7ff4d4" />\
+<img width="377" height="183" alt="chromaticssspell1" src="https://github.com/user-attachments/assets/0bf4627f-7214-4c5d-acd2-dd6b9be487bf" />\
+<img width="428" height="162" alt="chromaticsstoken" src="https://github.com/user-attachments/assets/bb4fa53d-32a7-46da-aa61-f645b2b0636e" />\
+<img width="450" height="663" alt="chromaticsstier" src="https://github.com/user-attachments/assets/2f3eceae-3461-4a7f-a967-3a066b88c5d5" />\
 <img width="521" height="507" alt="chromaticsssm" src="https://github.com/user-attachments/assets/7f337ade-61c4-4ce4-b115-e3693c074d76" />
 <img width="698" height="348" alt="chromaticssaux" src="https://github.com/user-attachments/assets/6be21101-8520-492c-a159-b5b7d01973fa" />
 <img width="402" height="496" alt="chromaticsselvui" src="https://github.com/user-attachments/assets/7948c5ab-cd02-4705-ae90-25279ebdb779" />
