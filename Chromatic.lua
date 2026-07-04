@@ -289,6 +289,9 @@ end
 local tooltipBaseLines    = {}  -- NumLines() snapshot before addon hooks add lines
 local lineCache = {}
 
+-- TipTac: skip player talent names
+local TIPTAC_TALENTS_PREFIX = (_G.TALENTS and (_G.TALENTS .. ":")) or "Talents:"
+
 local function ProcessTooltipLines(tooltip, skipElement)
     if not cfgElementColor and not cfgClassColor then return end
 
@@ -336,6 +339,7 @@ local function ProcessTooltipLines(tooltip, skipElement)
     local inMobSkip = false
     for i = 2, numLines do
         local isAddonLine = i > baseLine
+        local isTalentLine = false
         local lineL = left[i]
         if lineL and lineL:GetFont() then
             local text = lineL:GetText()
@@ -343,6 +347,9 @@ local function ProcessTooltipLines(tooltip, skipElement)
                 if not isAddonLine and strfind(text, " Mobs:", 1, true) then
                     inMobSkip     = true
                     classLineDone = true  -- mob names are never class lines
+                elseif strfind(text, TIPTAC_TALENTS_PREFIX, 1, true) == 1 then
+                    -- TipTac/TipTacTalents player-talent summary line: leave untouched.
+                    isTalentLine = true
                 elseif isAddonLine or not inMobSkip then
                     local newText = doElem and ProcessDamageLine(text) or text
                     if not classLineDone and strfind(newText, "Classes:", 1, true) then
@@ -359,7 +366,7 @@ local function ProcessTooltipLines(tooltip, skipElement)
                 end
             end
         end
-        if doElem and (isAddonLine or not inMobSkip) then
+        if doElem and not isTalentLine and (isAddonLine or not inMobSkip) then
             local lineR = right[i]
             if lineR and lineR:GetFont() then
                 local text = lineR:GetText()
