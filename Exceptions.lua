@@ -99,6 +99,7 @@ ChromaticData.EXCEPTIONS = {
 "with fire",
 "greater fire",
 "Fire totem",
+"Fire Lord",
 "_Fire_", --Skada compatibility
     -- Frost
 "Frost Talents", 
@@ -168,6 +169,7 @@ ChromaticData.EXCEPTIONS = {
 "Shadow Bite",
 "shadow magic",
 "Shadow Vault",
+"taint of shadow",
 "_Shadow_", --Skada compatibility
     -- Holy
 "Holy Talents", 

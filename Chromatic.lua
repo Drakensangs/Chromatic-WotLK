@@ -118,8 +118,8 @@ do
             "([^%a])" .. dt .. " damage$",       "%1" .. cs .. " damage",
             "^"       .. dt .. " damage$",               cs .. " damage",
             -- Standalone title case (33-40)
-            "([^%a])" .. dt .. "([^%a])", "%1" .. cs .. "%2",
-            "^"       .. dt .. "([^%a])",        cs .. "%1",
+            "([^%a])" .. dt .. "([^%a%-])", "%1" .. cs .. "%2",
+            "^"       .. dt .. "([^%a%-])",        cs .. "%1",
             "([^%a])" .. dt .. "$",       "%1" .. cs,
             "^"       .. dt .. "$",               cs,
             -- Resistance lower case (41-48)
@@ -128,8 +128,8 @@ do
             "([^%a])" .. dtl .. " resistance$",       "%1" .. csl .. " resistance",
             "^"       .. dtl .. " resistance$",               csl .. " resistance",
             -- Standalone lower case (49-56)
-            "([^%a])" .. dtl .. "([^%a])", "%1" .. csl .. "%2",
-            "^"       .. dtl .. "([^%a])",        csl .. "%1",
+            "([^%a])" .. dtl .. "([^%a%-])", "%1" .. csl .. "%2",
+            "^"       .. dtl .. "([^%a%-])",        csl .. "%1",
             "([^%a])" .. dtl .. "$",       "%1" .. csl,
             "^"       .. dtl .. "$",               csl,
         }
